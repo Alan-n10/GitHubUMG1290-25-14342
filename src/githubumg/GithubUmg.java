@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package githubumg;
 
 /**
@@ -15,7 +12,13 @@ public class GithubUmg {
      */
     public static void main(String[] args) {
         System.out.println("Hola mundo");
-        // TODO code application logic here
+        Empleado emp = new Empleado();
+        emp.crearsalario(30000);
+        System.out.println("el salario es de" );
+              
+      
     }
+  
+   
     
 }

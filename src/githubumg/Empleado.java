@@ -9,19 +9,22 @@ public class Empleado {
     String nombre;
     String apellido;
     String direccion;
+    double salario;
     
     public Empleado(){
        this.id =0;
        this.nombre= "";
        this.apellido= "";
        this.direccion= "";
+       this.salario=0;
     }
 
-    public Empleado(int id, String nombre, String apellido, String direccion) {
+    public Empleado(int id, String nombre, String apellido, String direccion, double salario) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
+        this.salario = salario;
     }
 
     public int getId() {
@@ -52,8 +55,22 @@ public class Empleado {
         return direccion;
     }
 
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
+
+    void crearsalario(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+ 
     
 }
